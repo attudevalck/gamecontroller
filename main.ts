@@ -4,6 +4,6 @@ basic.forever(function () {
         basic.pause(500)
         basic.clearScreen()
     } else {
-        basic.clearScreen()
+        basic.showNumber(0)
     }
 })
